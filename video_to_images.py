@@ -1,6 +1,7 @@
 import cv2
 
 if __name__ == '__main__':
+    '''Converting the mp4 video into frames'''
 
     vidcap = cv2.VideoCapture('operation_video.mp4')
     success,image = vidcap.read()

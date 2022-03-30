@@ -1,6 +1,7 @@
 import cv2
 
 if __name__ == '__main__':
+    '''Converting the frames into mp4 video'''
 
     image_folder = 'frames_and_eye_tracking'
     video_name = 'operation_video_eye_tracking.mp4'

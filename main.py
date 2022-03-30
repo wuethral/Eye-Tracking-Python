@@ -3,7 +3,7 @@ import os
 import pandas as pd
 
 if __name__ == '__main__':
-
+    '''Creating frames with the coordinates of the eye tracking as a dot on them'''
 
     image_names = os.listdir('frames')
     data = pd.read_excel('coordinates.xlsx')
